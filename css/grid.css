@@ -1,0 +1,262 @@
+section {
+  margin: 0;
+  padding: 0;
+  display: block;
+  min-width: 100%;
+}
+
+
+.grid-container-1 {
+  height: 75vw;
+  width: 75vw;
+  margin: 50px auto;
+  display: grid;
+  grid-template-areas:
+    'r_1     r_1    g_1  g_2  g_3'
+    'g_4    g_4   g_5  g_5  g_6'
+    'g_7    g_7   bc_1  bc_1  g_6'
+    'b_1   b_1  bc_1  bc_1  y_1'
+    'y_2  g_8   r_2   r_2   y_1'
+    'y_2  g_8   r_2   r_2   g_9';
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  clip-path: inset(0.5vw 5vw 4vw 0 round 25px);
+  box-shadow: 4px 4px 55px 20px rgba(255, 255, 255, 0.25);
+}
+
+.grid-container-1 .block {
+  border: 0.25vw solid black;
+}
+
+.gray {
+  background: #d3d3d3;
+}
+
+.red {
+  background: #d50605;
+}
+
+.yellow {
+  background: #e6cc01;
+}
+
+.blue {
+  background: #0062a8;
+}
+
+.black {
+  background: black;
+}
+
+.white-1 {
+  background: white;
+}
+
+.g_1 {
+  grid-area: g_1;
+}
+
+.g_2 {
+  grid-area: g_2;
+}
+
+.g_3 {
+  grid-area: g_3;
+}
+
+.g_4 {
+  grid-area: g_4;
+  border-left: 1vw solid black !important;
+}
+
+.g_5 {
+  grid-area: g_5;
+}
+
+.g_6 {
+  grid-area: g_6;
+}
+
+.g_7 {
+  grid-area: g_7;
+  border-left: 1vw solid black !important;
+}
+
+.g_8 {
+  grid-area: g_8;
+}
+
+.g_9 {
+  grid-area: g_9;
+}
+
+.r_1 {
+  grid-area: r_1;
+  border-left: none !important;
+}
+
+.r_2 {
+  grid-area: r_2;
+}
+
+.y_1 {
+  grid-area: y_1;
+}
+
+.y_2 {
+  grid-area: y_2;
+  border-left: 1vw solid black !important;
+}
+
+.bc_1 {
+  grid-area: bc_1;
+}
+
+.b_1 {
+  grid-area: b_1;
+  border-left: 1vw solid black !important;
+}
+
+.grid-container-2 {
+  height: 45vw;
+  width: 95%;
+  margin: 50px auto;
+  background: rgb(255, 157, 0);
+  border-radius: 25px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-container-2 .dashboard {
+  background: #ff1616;
+  grid-column: 1;
+}
+
+.grid-container-2 .graphic-board {
+  grid-column: 2 / 7;
+  margin: 2% 4%;
+  display: grid;
+  grid-template-areas:
+    'graphic-1 graphic-1 graphic-1 graphic-1 graphic-1 graphic-1'
+    'graphic-2 graphic-2 graphic-3 graphic-3 graphic-4 graphic-4'
+    'graphic-5 graphic-5 graphic-5 graphic-6 graphic-6 graphic-6';
+  grid-auto-rows: 1fr;
+  gap: 2vw 5vw;
+}
+
+.grid-container-2 .graphic {
+  background: #fff;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.grid-container-2 .graphic-1 {
+  grid-area: graphic-1;
+}
+
+.grid-container-2 .graphic-2 {
+  grid-area: graphic-2;
+}
+
+.grid-container-2 .graphic-3 {
+  grid-area: graphic-3;
+}
+
+.grid-container-2 .graphic-4 {
+  grid-area: graphic-4;
+}
+
+.grid-container-2 .graphic-5 {
+  grid-area: graphic-5;
+}
+
+.grid-container-2 .graphic-6 {
+  grid-area: graphic-6;
+}
+
+.grid-container-2 .magicpattern-1 {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: repeat;
+
+}
+
+.grid-container-2 .magicpattern-2 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+.grid-container-2 .magicpattern-3 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+.grid-container-2 .magicpattern-4 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+.grid-container-2 .magicpattern-5 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+.grid-container-2 .magicpattern-6 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+
+
+.grid-container-3 {
+  margin: 0 auto 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  width: 90%;
+}
+
+.grid-container-3 li {
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+.grid-container-3 li img {
+  width: 100%;
+  height: 100%;
+  grid-area: 1 / 1;
+  z-index: -1;
+}
+
+.grid-container-3 li a {
+  width: 50px;
+  grid-area: 1 / 1;
+  justify-self: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  color: black;
+
+  background: #fff;
+  border: 3px solid black;
+  border-radius: 15px;
+}
