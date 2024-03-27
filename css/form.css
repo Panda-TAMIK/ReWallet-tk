@@ -65,91 +65,56 @@ label {
 }
 
 .form_radio_btn label {
-  display: inline-block;
-  cursor: pointer;
-  padding: 0px 15px;
-  line-height: 34px;
-  border-radius: 6px;
-  user-select: none;
-  background-color: #fff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  margin: 0 12px;
+  background-color: #2A2D51;
+  border-radius: 8px;
 }
-
-/* Checked */
-.form_radio_btn input[type=radio]:checked+label {
-  background: #F7931A;
-}
-
-/* Hover */
-.form_radio_btn label:hover {
-  color: #666;
-}
-
-
 
 .form_radio_group {
-  display: inline-block;
-  overflow: hidden;
-}
-
-.form_radio_group-item {
-  display: inline-block;
-
-}
-
-.form_radio_group input[type=checkbox] {
-  display: none;
+  display: grid;
+  grid: auto-flow/ 1fr 1fr;
 }
 
 .form_radio_group label {
-  display: inline-block;
-  cursor: pointer;
-  padding: 0px 15px;
-  line-height: 34px;
-  background-color: #fff;
-  border-right: none;
-  user-select: none;
-  border-radius: 8px;
-}
-
-.form_radio_group label {
-  color: #1A1E42;
-}
-
-.form_radio_group .form_radio_group-item:first-child label {
-  border-radius: 6px 0 0 6px;
-}
-
-.form_radio_group .form_radio_group-item:last-child label {
-  border-radius: 0 6px 6px 0;
-  border-right: 1px solid #999;
-}
-
-
-.form_radio_group input[type=checkbox]:checked+label {
-  background: #F7931A;
-}
-
-
-.form_radio_group label:hover {
   color: #fff;
-}
-.buttons{
-  display: flex;
-  flex-direction: row;
-  gap: 32px;
-  padding-top:24px ;
-
-}
-.buttons button{
-  
-  background-color: #fff;
+  padding: 10px 0;
+  margin: 0 12px;
+  background-color: #2A2D51;
   border-radius: 8px;
-  color: #1A1E42;
-  padding: 12px 8px;
+  margin: 12px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 8px 16px;
 }
-.buttons input{
+
+.form_radio_group input {
   display: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.buttons input{
+  color: #fff;
+  width: 80px;
+  padding: 10px;
+  margin: 24px 0;
+}
+
+@media screen and (min-width:650px) {
+  .form_sec {
+    margin: 80px auto;
+    gap: 32px;
+    border-radius: 8px;
+    max-width: 650px;
+  }
+
+
 }
