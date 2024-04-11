@@ -1010,6 +1010,18 @@ a:hover {
     display: none;
 }
 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
 @media (max-width: 719px) {
     .header__navbar {
         display: none;
@@ -1059,7 +1071,7 @@ a:hover {
         border: 2px solid #1A1E42;
         border-radius: 4px;
         color: #1A1E42;
-        font-size: 2, 7rem;
+        font-size: 1.6rem;
         font-family: 700;
     }
     .navbar {
