@@ -1,180 +1,174 @@
 h1 {
-  margin-bottom: 16px;
-  font-size: 3.6rem;
-  font-family: 'Space_Grotesk';
-  font-weight: 600;
-  line-height: 1.2;
-  text-align: left;
-  color: #fff;
+    margin-bottom: 16px;
+    font-size: 3.6rem;
+    font-family: 'Space_Grotesk';
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
 }
 
 legend {
-  margin-bottom: 16px;
-  font-size: 1.8rem;
-  font-family: 'Space_Grotesk';
-  font-weight: 600;
-  line-height: 1.2;
-  text-align: left;
-  color: #fff;
+    margin-bottom: 16px;
+    font-size: 1.8rem;
+    font-family: 'Space_Grotesk';
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
 }
 
 p {
-  color: #fff;
-  font-size: 1.8rem;
-  padding: 12px;
-  display: flex;
-  flex-direction: column;
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
 input {
-  padding: 10px;
-  color: white;
-  background-color: #2A2D51;
-  padding: 6px;
-  border-radius: 8px;
+    padding: 10px;
+    color: white;
+    background-color: #2A2D51;
+    padding: 6px;
+    border-radius: 8px;
 }
 
 label {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .header__logo {
-  transform: rotate(30deg) skew(10deg, 10deg) scale(1.5);
+    transform: rotate(30deg) skew(10deg, 10deg) scale(1.5);
 }
 
 .form_a {
-  flex-direction: column;
-  padding: 24px 32px;
-  margin: 20px;
-  gap: 32px;
-  background-color: #1A1E42;
-  border-radius: 8px;
-  align-items: stretch;
-
+    flex-direction: column;
+    padding: 24px 32px;
+    margin: 20px;
+    gap: 32px;
+    background-color: #1A1E42;
+    border-radius: 8px;
+    align-items: stretch;
 }
 
 .form_radio_btn ul {
-  display: grid;
-  grid: auto-flow/ 1fr 1fr;
+    display: grid;
+    grid: auto-flow/ 1fr 1fr;
 }
 
-
 .form_radio_btn input {
-  display: none;
+    display: none;
 }
 
 .form_radio_btn label {
-  color: #fff;
-  display: flex;
-  align-items: center;
-  padding: 10px 0;
-  margin: 0 12px;
-  background-color: #2A2D51;
-  border-radius: 8px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 12px;
+    background-color: #2A2D51;
+    border-radius: 8px;
 }
 
 input[type="radio"]:checked+label {
-  color: black;
-  background-color: #98A2B3;
+    color: black;
+    background-color: #98A2B3;
 }
 
 .form_radio_group {
-  display: grid;
-  grid: auto-flow/ 1fr 1fr;
+    display: grid;
+    grid: auto-flow/ 1fr 1fr;
 }
 
 .form_radio_group label {
-  color: #fff;
-  padding: 10px 0;
-  margin: 0 12px;
-  background-color: #2A2D51;
-  border-radius: 8px;
-  margin: 12px;
-  display: flex;
-  align-items: center;
+    color: #fff;
+    padding: 10px 0;
+    margin: 0 12px;
+    background-color: #2A2D51;
+    border-radius: 8px;
+    margin: 12px;
+    display: flex;
+    align-items: center;
 }
 
 .form_radio_group input {
-  display: none;
+    display: none;
 }
 
 input[type="checkbox"]:checked+label {
-  color: black;
-  background-color: #98A2B3;
+    color: black;
+    background-color: #98A2B3;
 }
 
 .required {
-  position: relative;
+    position: relative;
 }
 
 .required::before {
-  content: '*';
-  color: red;
-  position: absolute;
-  left: -10px;
-  top: -4px;
+    content: '*';
+    color: red;
+    position: absolute;
+    left: -10px;
+    top: -4px;
 }
 
 .buttons {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 24px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
 }
 
 .buttons input {
-  color: #fff;
-  width: 80px;
-  padding: 10px;
-  margin: 24px 0;
+    color: #fff;
+    width: 80px;
+    padding: 10px;
+    margin: 24px 0;
 }
 
 label:focus-within {
-  color: #F7931A;
+    color: #F7931A;
 }
+
 
 /* footer h3 {
   transform: rotate(30deg) scale(1) skewX(15deg) skewY(15deg);
 } */
 
-
 .form_b legend {
-  color: rebeccapurple;
+    color: rebeccapurple;
 }
 
 dt {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-bottom: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 dd::before {
-  content: "🛈";
-  margin-right: 5px;
+    content: "🛈";
+    margin-right: 5px;
 }
 
 input[type="checkbox"]:checked+label {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 .pseudo-elements-list dt:nth-child(even) {
-  color: blue;
+    color: blue;
 }
 
 .pseudo-elements-list dt:nth-child(odd) {
-  color: green;
+    color: green;
 }
 
-
-
 @media screen and (min-width:650px) {
-  .form_a {
-    margin: 80px auto;
-    gap: 32px;
-    border-radius: 8px;
-    max-width: 650px;
-  }
-
-
+    .form_a {
+        margin: 80px auto;
+        gap: 32px;
+        border-radius: 8px;
+        max-width: 650px;
+    }
 }
