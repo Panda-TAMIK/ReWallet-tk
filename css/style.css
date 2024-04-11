@@ -92,8 +92,11 @@ a:hover {
   transition: 1s;
   cursor: pointer;
   transform: scale(1.2);
-  transform: rotate(5deg);
+  box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5); 
+  /* transform: rotate(5deg); */
 }
+
+
 
 .desctop {
   display: none;
@@ -562,7 +565,16 @@ a:hover {
   flex-direction: row;
   overflow-x: hidden;
   gap: 24px;
+  box-shadow: 20px 20px  rgba(36, 36, 36, 0.5); 
 }
+
+.rew_blog a:active{
+  background-color: #1A1E42;
+}
+.rew_blog p:active{
+  color: #F7931A;
+}
+
 
 .wrapper li {
 
@@ -1336,10 +1348,13 @@ a:hover {
     grid: auto-flow / 1fr 1fr;
     gap: 48px;
   }
-
+  .our_ul h2{
+    padding: 0  12px 0;
+  }
 
   .our_process li {
-    flex-direction: column;
+    flex-direction: row;
+    gap: 20px;
   }
 
   .our_process p {
@@ -1408,5 +1423,12 @@ a:hover {
   .why_li li {
     max-width: 410px;
     max-height: 270px;
+  }
+
+  .header_langbtn:hover{
+    text-decoration: none;
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.2);
   }
 }

@@ -27,6 +27,8 @@ p {
 }
 
 input {
+  padding: 10px;
+  color: white;
   background-color: #2A2D51;
   padding: 6px;
   border-radius: 8px;
@@ -38,12 +40,10 @@ label {
 }
 
 .header__logo {
-  transform: rotate(30deg);
-  scale: 150% 150%;
-  transform: skew(10deg, 10deg);
+  transform: rotate(30deg) skew(10deg, 10deg) scale(1.5);
 }
 
-.form_sec {
+.form_a {
   flex-direction: column;
   padding: 24px 32px;
   margin: 20px;
@@ -54,7 +54,7 @@ label {
 
 }
 
-.form_radio_btn div {
+.form_radio_btn ul {
   display: grid;
   grid: auto-flow/ 1fr 1fr;
 }
@@ -72,6 +72,11 @@ label {
   margin: 0 12px;
   background-color: #2A2D51;
   border-radius: 8px;
+}
+
+input[type="radio"]:checked+label {
+  color: black;
+  background-color: #98A2B3;
 }
 
 .form_radio_group {
@@ -94,6 +99,23 @@ label {
   display: none;
 }
 
+input[type="checkbox"]:checked+label {
+  color: black;
+  background-color: #98A2B3;
+}
+
+.required {
+  position: relative;
+}
+
+.required::before {
+  content: '*';
+  color: red;
+  position: absolute;
+  left: -10px;
+  top: -4px;
+}
+
 .buttons {
   display: flex;
   justify-content: flex-start;
@@ -101,15 +123,53 @@ label {
   gap: 24px;
 }
 
-.buttons input{
+.buttons input {
   color: #fff;
   width: 80px;
   padding: 10px;
   margin: 24px 0;
 }
 
+label:focus-within {
+  color: #F7931A;
+}
+
+/* footer h3 {
+  transform: rotate(30deg) scale(1) skewX(15deg) skewY(15deg);
+} */
+
+
+.form_b legend {
+  color: rebeccapurple;
+}
+
+dt {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+dd::before {
+  content: "🛈";
+  margin-right: 5px;
+}
+
+input[type="checkbox"]:checked+label {
+  text-decoration: line-through;
+}
+
+.pseudo-elements-list dt:nth-child(even) {
+  color: blue;
+}
+
+.pseudo-elements-list dt:nth-child(odd) {
+  color: green;
+}
+
+
+
 @media screen and (min-width:650px) {
-  .form_sec {
+  .form_a {
     margin: 80px auto;
     gap: 32px;
     border-radius: 8px;
