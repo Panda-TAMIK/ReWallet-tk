@@ -82,7 +82,7 @@ section {
     transform: rotateY(180deg);
 }
 
-.back {
+.back a {
     font-size: 1.8rem;
     color: #fff;
     font-weight: 500;
