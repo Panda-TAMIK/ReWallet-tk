@@ -82,6 +82,12 @@ section {
     transform: rotateY(180deg);
 }
 
+.back a {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 500;
+}
+
 .flipping-card__container li:hover .front {
     transform: rotateY(180deg);
 }
