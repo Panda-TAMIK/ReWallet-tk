@@ -22,9 +22,9 @@
 }
 
 :root {
-    --bg-orange: #F7931A;
+    --bg-orange: #ff8c00;
     --dark-blue: #1a1e42;
-    --text-gray: #98A2B3;
+    --text-gray: #4d5056;
     --text-dark-blue: rgba(26, 30, 66, 0.80);
     --white: #fff;
     font-size: 62.5%;
@@ -132,7 +132,7 @@ a:hover {
 }
 
 .regain_container h1 span {
-    color: #F7931A;
+    color: #ff8c00;
 }
 
 .regain-text {
@@ -145,7 +145,7 @@ a:hover {
 
 .regain_button {
     color: #fff;
-    background-color: #F7931A;
+    background-color: #ff8c00;
     display: flex;
     border-radius: 4px;
     font-size: 1.8rem;
@@ -166,7 +166,7 @@ a:hover {
 }
 
 .regain_subsubtitle {
-    color: #98A2B3;
+    color: #4d5056;
     font-size: 1.6rem;
     line-height: 26px;
     font-weight: 500;
@@ -194,7 +194,7 @@ a:hover {
 
 .logos p {
     font-size: 1.6rem;
-    color: #98A2B3;
+    color: #4d5056;
     line-height: 24px;
 }
 
@@ -298,7 +298,7 @@ a:hover {
 
 .btn_why {
     color: #fff;
-    background-color: #F7931A;
+    background-color: #ff8c00;
     display: flex;
     border-radius: 4px;
     font-size: 1.8rem;
@@ -338,7 +338,7 @@ a:hover {
 }
 
 .About_our>a {
-    color: #F7931A;
+    color: #ff8c00;
     font-size: 1.8rem;
     display: flex;
     flex-direction: row;
@@ -488,7 +488,7 @@ a:hover {
 
 .our_promise_block2>a {
     color: #fff;
-    background-color: #F7931A;
+    background-color: #ff8c00;
     display: flex;
     border-radius: 4px;
     font-size: 1.8rem;
@@ -554,7 +554,7 @@ a:hover {
 }
 
 .rew_blog p:active {
-    color: #F7931A;
+    color: #ff8c00;
 }
 
 .wrapper li {
@@ -573,7 +573,7 @@ a:hover {
 }
 
 .wrapper p {
-    color: #98A2B3;
+    color: #4d5056;
     font-size: 1.8rem;
     height: 390px;
 }
@@ -651,7 +651,7 @@ a:hover {
 
 .rewallet-ul__ava p {
     text-align: center;
-    color: #98A2B3;
+    color: #4d5056;
     font-size: 1.6rem;
     font-weight: 500;
     padding: 11px 0;
@@ -682,7 +682,7 @@ a:hover {
 
 .reg-discrbtn {
     color: #fff;
-    background-color: #F7931A;
+    background-color: #ff8c00;
     display: flex;
     border-radius: 4px;
     font-size: 1.8rem;
@@ -853,7 +853,7 @@ a:hover {
 }
 
 .contacts label:hover {
-    background-color: #F7931A;
+    background-color: #ff8c00;
     transition: 0.5s;
 }
 
@@ -933,7 +933,7 @@ a:hover {
 }
 
 .getin__list a:hover {
-    color: #F7931A;
+    color: #ff8c00;
 }
 
 .footer_container {
@@ -959,7 +959,7 @@ a:hover {
 }
 
 .footer_links a:hover {
-    color: #F7931A;
+    color: #ff8c00;
 }
 
 .footer_links li {
@@ -1087,7 +1087,7 @@ a:hover {
         font-weight: 500;
     }
     .navbar a:hover {
-        color: #F7931A;
+        color: #ff8c00;
         transition: 1s;
         cursor: pointer;
         border: none;
@@ -1099,8 +1099,8 @@ a:hover {
         gap: 2px;
     }
     .header_btns a:hover {
-        color: #F7931A;
-        border-color: #F7931A;
+        color: #ff8c00;
+        border-color: #ff8c00;
         transition: 1s;
     }
     .header__button-menu {
