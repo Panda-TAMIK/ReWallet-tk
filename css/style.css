@@ -584,7 +584,7 @@ a:hover {
 }
 
 .star_button {
-    background-color: #138a63;
+    background-color: rgb(19, 138, 99);
     display: flex;
     padding: 12px;
     align-items: center;
@@ -593,7 +593,7 @@ a:hover {
 
 .star_button>p {
     font-size: 1.8rem;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
 
 .testimonials_rew {
